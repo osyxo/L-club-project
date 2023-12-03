@@ -1,0 +1,178 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lClub</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <div class="head">
+        <div class="logo">
+            <img src="{% static 'images/image 1.png' %}" alt="">
+        </div>
+
+        <div class="nav">
+            <a href="">Подарунки</a>
+            <a href="">Товар</a>
+            <a href="">Знижки</a>
+            <a href="">Контакти </a>
+            <a href="">Контакти </a>
+        </div>
+    </div>
+
+    <div class="news__welcome">
+        <div class="welcome">
+            <div class="welcome__title">
+                <h2>Про L-CLUB</h2>
+            </div>
+
+            <div class="welcome__image">
+                <img src="{% static 'images/welcome.png' %}" alt="">
+            </div>
+
+            <div class="welcome__description">
+                <p>L'club – це молодий, але динамічно зростаючий партнерський проект, створений медиками та фармацевтами для своїх друзів, колег та пацієнтів. Мета проекту: допомогти всім, хто піклується про здоров'я - своє, своїх рідних, друзів, пацієнтів, знайомих - отримати доступ до унікальних інноваційних продуктів та рішень, які здатні реально покращити якість життя, красу та здоров'я. Не тільки покращити – але й зберегти на довгі роки. Приєднуйтесь до нас!</p>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news__title">
+                <h2>Новини L-CLUB</h2>
+            </div>
+
+            <div class="news__image">
+                <img src="{% static 'images/news.png' %}" alt="">
+            </div>
+        </div>
+    </div>  
+    
+    <div class="why__us">
+        <div class="why__us__text">
+            <h2>Чому саме ми?</h2>
+        </div>
+
+        <div class="blocks">
+            <div class="why__us__block">
+                <div>
+                    <img src="{% static 'images/why_us.png' %}" alt="">
+                </div>
+                <div class="why__us__block__text">
+                    <h3>В ЧОМУ ВІДМІННІСТЬ L'CLUB ВІД ІНШИХ?</h3>
+                </div>
+                <div class="why__us__block__text">
+                    <p>L'club - це унікальний ПАРТНЕРСЬКИЙ ПРОЕКТ, який об'єднав все найкраще, що є в сучасних програмах лояльності</p>
+                </div>
+            </div>
+
+            <div class="why__us__block">
+                <div>
+                    <img src="{% static 'images/why_us2.png' %}" alt="">
+                </div>
+                <div class="why__us__block__text">
+                    <h3>ЗНАЙДИ КОНСУЛЬТАНТА ТА ОТРИМАЙ СВІЙ ПРОМО- КОД ДЛЯ РЕЄСТРАЦІЇ</h3>
+                </div>
+                <div class="why__us__block__text">
+                    <p>Бажаєте приєднатися до Партнерської програми L-club в якості Клієнта або Партнера, але у Вас нема промо- коду для реєстрації? Залиште, будь-ласка, свій запит, і ми обов'язково зв'яжемось з Вами найближчим часом.</p>
+                </div>
+            </div>
+
+            <div class="why__us__block">
+                <div>
+                    <img src="{% static 'images/why_us3.png' %}" alt="">
+                </div>
+                <div class="why__us__block__text">
+                    <h3>БІЗНЕС АКАДЕМІЯ</h3>
+                </div>
+                <div class="why__us__block__text">
+                    <p>Поради, які допоможуть Вам успішно розпочати свою діяльність в L-club</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="anketa">
+        <div class="anketa__text">
+            <p>Щоб замовити товар - заповніть анкету:</p>
+        </div>
+        <div class="anketa__blocks">
+            <input type="text" placeholder="ПІБ"><br>
+            <input type="text" placeholder="Номер телефону "><br>
+            <input type="text" placeholder="Адреса електронної пошти">
+            <button class="anketa__button">Відправити</button>
+        </div>
+    </div>
+
+    <div class="vidguki">
+        <div>
+            <div class="vidguki__name__ava">
+                <p class="vidguki__ava">Д</p><p class="vidguki__name">Даша фесенко</p>
+            </div>
+            <div>
+                <p class="vidguki__text">Замовила товар, чудова якість!</p>
+            </div>
+        </div>
+        <div>
+            <div class="vidguki__name__ava">
+                <p class="vidguki__ava bg-pink">В</p><p class="vidguki__name">Володимир С</p>
+            </div>
+            <div>
+                <p class="vidguki__text">Проконсулювали на найвищому рівні! Супер!</p>
+            </div>
+        </div>
+        <div>
+            <div class="vidguki__name__ava">
+                <p class="vidguki__ava bg-green">М</p><p class="vidguki__name">Максим Калінкін</p>
+            </div>
+            <div>
+                <p class="vidguki__text">Дуже файний товар, його вистачає на багато часу.</p>
+            </div>
+        </div>  
+    </div>
+
+    <div class="partneru">
+        <h3>Партнери</h3>
+        <div class="partneru__spusok">
+            <div class="partneru__item">
+                <img src="{% static 'images/partner1.png' %}" alt="">
+            </div>
+            <div class="partneru__item">
+                <img src="{% static 'images/partner2.png' %}" alt="">
+            </div>
+            <div class="partneru__item">
+                <img src="{% static 'images/partner3.png' %}" alt="">
+            </div>
+            <div class="partneru__item">
+                <img src="{% static 'images/partner4.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="line">
+        <hr color="#FF00F5">
+    </div>
+
+        <div class="podval">
+            <div class="soc__meregi">
+                <img src="{% static 'images/image 1.png' %}" alt="">
+                <div class="logo__soc">
+                    <img src="{% static 'images/instagram.png' %}" alt="" style="margin: 20px;">
+                    <img src="{% static 'images/facebook.png' %}" alt="" style="margin: 20px;">
+                    <img src="{% static 'images/youtube.png' %}" alt="" style="margin: 20px;">
+                </div>
+            </div>
+
+            <div class="text__podval">
+                <p>Технічна підтримка www.L-CLUB.BIZ в Україні:</p>
+                <p class="text__podval fz__16">Telegram @lclubsupport</p>
+                <p class="text__podval fz__16">Пн-Пт с 9.00 до 18.00(окрім державних вихідних)</p>
+                <p class="text__podval fz__16">E-mail: admin@l-club.biz<p>
+            </div>
+        </div>
+</body>
+</html>
