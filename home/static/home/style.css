@@ -31,6 +31,14 @@ body{
     margin-bottom: 134px;
 }
 
+.welcome__image{
+    width: 100%;
+}
+
+.welcome__image img{
+    width: 100%;
+}
+
 .welcome__title h2{
     font-weight:normal;
     font-size: 64px;
